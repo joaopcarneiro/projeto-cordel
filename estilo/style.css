@@ -47,15 +47,16 @@ header a:hover, footer a:hover {
 }
 
 section {
+    min-width: 300px;
+    max-width: 1000px;
+    margin: auto;
     padding-top: 10vh;
     padding-bottom: 10vh;
     line-height: 2em;
     padding-left: 30px;
     font-family: var(--fonte3);
     font-size: 3.2vw;
-    min-width: 300px;
-    max-width: 1000px;
-    margin: auto;
+    
 }
 
 section > p {
